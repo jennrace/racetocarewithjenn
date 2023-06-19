@@ -42,9 +42,6 @@ ul {
 
 body {
     background-color: #7DB5B5;
-    height: 100%;
-    min-height: 20em;
-    min-width: 100%;
 }
 
 .image-container {
@@ -68,6 +65,22 @@ a img:active {
 }
 
 .flex-item {
-    width: 128px;
-    height: 128px;
+    width: 110px;
+    height: 110px;
+    padding-top: 55px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+.flex-container-side {
+    display: flex;
+    justify-content:center;
+}
+
+.flex-item-small {
+    width: 48px;
+    height: 48px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
